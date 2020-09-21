@@ -48,6 +48,7 @@ open class InlineBenchmark {
 fun main(){
     val options = OptionsBuilder()
             .include(InlineBenchmark::class.java.simpleName)
+            .output("inline-nonline-function-benchmark.log")
             .build()
     Runner(options).run()
 }

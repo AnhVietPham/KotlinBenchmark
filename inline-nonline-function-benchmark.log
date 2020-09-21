@@ -1,0 +1,177 @@
+# JMH version: 1.21
+# VM version: JDK 15, OpenJDK 64-Bit Server VM, 15+36-1562
+# VM invoker: /Users/anhvietpham/Library/Java/JavaVirtualMachines/openjdk-15/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51517:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: inlinefunction.InlineBenchmark.nonRepeatInline
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 208203105.490 ns/op
+# Warmup Iteration   2: 201336728.720 ns/op
+# Warmup Iteration   3: 192753830.423 ns/op
+# Warmup Iteration   4: 178723562.000 ns/op
+# Warmup Iteration   5: 174497412.828 ns/op
+Iteration   1: 173938118.052 ns/op
+Iteration   2: 173437264.345 ns/op
+Iteration   3: 173012933.000 ns/op
+Iteration   4: 173349499.534 ns/op
+Iteration   5: 172812969.362 ns/op
+
+# Run progress: 10.00% complete, ETA 00:15:13
+# Fork: 2 of 5
+# Warmup Iteration   1: 175855188.070 ns/op
+# Warmup Iteration   2: 173251127.259 ns/op
+# Warmup Iteration   3: 172563340.552 ns/op
+# Warmup Iteration   4: 172433598.593 ns/op
+# Warmup Iteration   5: 172369395.881 ns/op
+Iteration   1: 172317378.153 ns/op
+Iteration   2: 172249582.729 ns/op
+Iteration   3: 172399347.356 ns/op
+Iteration   4: 173205338.207 ns/op
+Iteration   5: 172804757.224 ns/op
+
+# Run progress: 20.00% complete, ETA 00:13:32
+# Fork: 3 of 5
+# Warmup Iteration   1: 175209223.207 ns/op
+# Warmup Iteration   2: 172698593.672 ns/op
+# Warmup Iteration   3: 173412792.086 ns/op
+# Warmup Iteration   4: 173156323.310 ns/op
+# Warmup Iteration   5: 172665548.552 ns/op
+Iteration   1: 172187104.254 ns/op
+Iteration   2: 189035188.611 ns/op
+Iteration   3: 206095160.327 ns/op
+Iteration   4: 206697643.980 ns/op
+Iteration   5: 200680376.340 ns/op
+
+# Run progress: 30.00% complete, ETA 00:11:51
+# Fork: 4 of 5
+# Warmup Iteration   1: 223204917.022 ns/op
+# Warmup Iteration   2: 187995885.685 ns/op
+# Warmup Iteration   3: 181877537.491 ns/op
+# Warmup Iteration   4: 178100693.298 ns/op
+# Warmup Iteration   5: 189979548.151 ns/op
+Iteration   1: 175896777.719 ns/op
+Iteration   2: 174337121.879 ns/op
+Iteration   3: 174080284.466 ns/op
+Iteration   4: 193825680.154 ns/op
+Iteration   5: 189347582.170 ns/op
+
+# Run progress: 40.00% complete, ETA 00:10:09
+# Fork: 5 of 5
+# Warmup Iteration   1: 197751603.706 ns/op
+# Warmup Iteration   2: 175389352.845 ns/op
+# Warmup Iteration   3: 175840470.772 ns/op
+# Warmup Iteration   4: 174125029.966 ns/op
+# Warmup Iteration   5: 174228465.690 ns/op
+Iteration   1: 174391299.500 ns/op
+Iteration   2: 176709841.842 ns/op
+Iteration   3: 181146267.768 ns/op
+Iteration   4: 213885796.787 ns/op
+Iteration   5: 217489235.043 ns/op
+
+
+Result "inlinefunction.InlineBenchmark.nonRepeatInline":
+  183013301.952 ±(99.9%) 11022077.569 ns/op [Average]
+  (min, avg, max) = (172187104.254, 183013301.952, 217489235.043), stdev = 14714158.210
+  CI (99.9%): [171991224.383, 194035379.521] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 15, OpenJDK 64-Bit Server VM, 15+36-1562
+# VM invoker: /Users/anhvietpham/Library/Java/JavaVirtualMachines/openjdk-15/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=51517:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: inlinefunction.InlineBenchmark.repeatInline
+
+# Run progress: 50.00% complete, ETA 00:08:27
+# Fork: 1 of 5
+# Warmup Iteration   1: 117096587.628 ns/op
+# Warmup Iteration   2: 112409200.337 ns/op
+# Warmup Iteration   3: 103117578.103 ns/op
+# Warmup Iteration   4: 101375097.040 ns/op
+# Warmup Iteration   5: 102727120.898 ns/op
+Iteration   1: 104972655.104 ns/op
+Iteration   2: 101685462.818 ns/op
+Iteration   3: 100638048.230 ns/op
+Iteration   4: 101830896.020 ns/op
+Iteration   5: 102193516.439 ns/op
+
+# Run progress: 60.00% complete, ETA 00:06:46
+# Fork: 2 of 5
+# Warmup Iteration   1: 104777925.969 ns/op
+# Warmup Iteration   2: 101802755.404 ns/op
+# Warmup Iteration   3: 101570782.333 ns/op
+# Warmup Iteration   4: 99923125.446 ns/op
+# Warmup Iteration   5: 100367872.930 ns/op
+Iteration   1: 104213823.323 ns/op
+Iteration   2: 101664625.465 ns/op
+Iteration   3: 104364734.531 ns/op
+Iteration   4: 102345304.184 ns/op
+Iteration   5: 99173665.069 ns/op
+
+# Run progress: 70.00% complete, ETA 00:05:04
+# Fork: 3 of 5
+# Warmup Iteration   1: 98963359.451 ns/op
+# Warmup Iteration   2: 109422801.500 ns/op
+# Warmup Iteration   3: 102693776.612 ns/op
+# Warmup Iteration   4: 103485823.113 ns/op
+# Warmup Iteration   5: 102184726.469 ns/op
+Iteration   1: 100525663.990 ns/op
+Iteration   2: 100601091.410 ns/op
+Iteration   3: 100367742.320 ns/op
+Iteration   4: 100544665.610 ns/op
+Iteration   5: 100197011.750 ns/op
+
+# Run progress: 80.00% complete, ETA 00:03:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 100414897.780 ns/op
+# Warmup Iteration   2: 100582254.890 ns/op
+# Warmup Iteration   3: 100346252.900 ns/op
+# Warmup Iteration   4: 100803854.240 ns/op
+# Warmup Iteration   5: 100183089.600 ns/op
+Iteration   1: 99578324.792 ns/op
+Iteration   2: 99499046.683 ns/op
+Iteration   3: 99626901.178 ns/op
+Iteration   4: 99995771.198 ns/op
+Iteration   5: 100182711.460 ns/op
+
+# Run progress: 90.00% complete, ETA 00:01:41
+# Fork: 5 of 5
+# Warmup Iteration   1: 99791656.020 ns/op
+# Warmup Iteration   2: 99770986.772 ns/op
+# Warmup Iteration   3: 100392021.300 ns/op
+# Warmup Iteration   4: 100798322.170 ns/op
+# Warmup Iteration   5: 101085739.869 ns/op
+Iteration   1: 100221579.940 ns/op
+Iteration   2: 100048263.680 ns/op
+Iteration   3: 99815898.218 ns/op
+Iteration   4: 99182289.693 ns/op
+Iteration   5: 99920305.851 ns/op
+
+
+Result "inlinefunction.InlineBenchmark.repeatInline":
+  100935599.958 ±(99.9%) 1208693.655 ns/op [Average]
+  (min, avg, max) = (99173665.069, 100935599.958, 104972655.104), stdev = 1613571.449
+  CI (99.9%): [99726906.303, 102144293.614] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:16:54
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                        Mode  Cnt          Score          Error  Units
+InlineBenchmark.nonRepeatInline  avgt   25  183013301.952 ± 11022077.569  ns/op
+InlineBenchmark.repeatInline     avgt   25  100935599.958 ±  1208693.655  ns/op
